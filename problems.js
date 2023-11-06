@@ -17,7 +17,8 @@ function averageOfFour(num1, num2, num3, num4) {
 function doubler(nums) {
     /* Takes an array of numbers and returns a new array where every element of
     the original array is multiplied by 2. */
-    return 
+    let newarray = nums * 2
+    return newarray
 };
 
 function combineArrays(arr1, arr2) {
@@ -25,7 +26,8 @@ function combineArrays(arr1, arr2) {
     a single array. **Hint**: Use the `Array.concat` method but be aware that
     calling this method won't permanently change, also known as **mutate**,
     either array. */
-    // Your code here
+    let addarray = arr1.concat(arr2)
+    return addarray
 };
 
 function wordWithinArray(word, arr) {
